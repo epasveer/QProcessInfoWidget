@@ -20,7 +20,7 @@ Comes with a test program (main.cpp).
 ScreenShot
 ==========
 
-![](images/example.gif)
+![](images/example.png)
 
 
 Building QProcessInfoWidget
