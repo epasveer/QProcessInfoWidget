@@ -1,7 +1,8 @@
 QProcessInfoWidget
 ==================
 
-QProcessInfoWidget is a widget to list processes running on your select.
+QProcessInfoWidget is a Qt widget to list processes running on your system.
+It requires a /proc filesystem. So it is likely Linux only.
 
 Select a process with a double-click of the process. A Qt signal is emitted.
 There is a button to include/exclude system process.
