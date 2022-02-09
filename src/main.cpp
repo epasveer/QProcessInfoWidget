@@ -1,12 +1,12 @@
-#include "QProcessInfoWidget.h"
+#include "QProcessInfoDialog.h"
 #include <QApplication>
 
 int main(int argc, char* argv[]) {
 
     QApplication a(argc, argv);
 
-    QProcessInfoWidget w;
-    w.show();
+    QProcessInfoDialog w;
+    w.exec();
 
     return a.exec();
 }

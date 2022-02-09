@@ -15,14 +15,21 @@ Copy these files to your project.
     QProcessInfo.cpp
     QProcessInfoWidget.h
     QProcessInfoWidget.cpp
+    QProcessInfoDialog.h
+    QProcessInfoDialog.cpp
 
 Comes with a test program (main.cpp).
 
 ScreenShot
 ==========
 
-![](images/example.png)
+QProcessInfoWidget can be used as a basic widget to show running processes.
 
+![](images/widget_example.png)
+
+Or it can be used inside a QProcessInfoDialog dialog to select a running process pid.
+
+![](images/dialog_example.png)
 
 Building QProcessInfoWidget
 ===========================

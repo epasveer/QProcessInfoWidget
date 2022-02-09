@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.1.0)
 
 project(QProcessInfoWidget VERSION 1.0.1 LANGUAGES CXX)
 
-set(PROJECT_NAME QProcessInfoWidget_demo)
+set(PROJECT_NAME QProcessInfoDialog_demo)
 
 # Find includes in the build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -20,12 +20,14 @@ find_package(Qt5Widgets REQUIRED)
 set(HEADER_FILES
     QProcessInfo.h
     QProcessInfoWidget.h
+    QProcessInfoDialog.h
     )
 
 set(SOURCE_FILES
     main.cpp
     QProcessInfo.cpp
     QProcessInfoWidget.cpp
+    QProcessInfoDialog.cpp
     )
 
 # Set non-Debug build as GUI application.
